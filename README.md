@@ -24,7 +24,9 @@ Or install it yourself as:
 
 Example:
 > cat txt.txt | nmax 24
+
 > echo "sgf 45 dh 7 gf" | nmax 24
+
 > nmax 24 < "sgf 45 dh 7 gf"
 
 
@@ -36,7 +38,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/nmax.
+Bug reports and pull requests are welcome on GitHub at https://github.com/pingvistyle/nmax.
 
 ## License
 
