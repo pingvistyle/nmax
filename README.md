@@ -2,7 +2,7 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/nmax`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+Search n of max numbers in standard input stream $1.
 
 ## Installation
 
@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Example:
+> cat txt.txt | nmax 24
+> echo "sgf 45 dh 7 gf" | nmax 24
+> nmax 24 < "sgf 45 dh 7 gf"
+
 
 ## Development
 
