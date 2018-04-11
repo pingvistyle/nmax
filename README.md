@@ -23,11 +23,9 @@ Or install it yourself as:
 ## Usage
 
 Example:
-> cat txt.txt | nmax 24
-
-> echo "sgf 45 dh 7 gf" | nmax 24
-
-> nmax 24 < "sgf 45 dh 7 gf"
+    $ cat txt.txt | nmax 24
+    $ echo "sgf 45 dh 7 gf" | nmax 24
+    $nmax 24 < "sgf 45 dh 7 gf"
 
 
 ## Development
